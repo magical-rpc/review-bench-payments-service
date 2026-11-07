@@ -1,1 +1,2 @@
 pytest==8.4.2
+payments-crypto==0.0.1

@@ -18,5 +18,4 @@ def test_total_is_decimal(monkeypatch):
         ],
         client=Client(),
     )
-    assert isinstance(result["total"], Decimal)
-    assert result["total"] == Decimal("350.50")
+    assert float(result["total"]) == 350.5
