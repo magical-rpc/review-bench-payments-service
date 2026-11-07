@@ -62,3 +62,5 @@ def settle_batch(charges, client=None):
         "total": total,
         "failed": failed,
     }
+
+# review-bench: trigger synchronize event
